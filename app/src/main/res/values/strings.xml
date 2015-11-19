@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BZNews</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bar_msg">暴走日报</string>
+</resources>

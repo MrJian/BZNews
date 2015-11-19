@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/id_detail_bar"
+        layout="@layout/view_detail_bar"/>
+
+    <ListView
+        android:id="@+id/id_detail_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/id_detail_bar"
+        android:background="#ffffff"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"/>
+
+    <com.bz.view.Waitting
+        android:id="@+id/id_waiting"
+        android:background="#d6d6d6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/id_detail_bar"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:text="2015.11.17 星期二"
+          android:textSize="20sp"
+          android:gravity="center_vertical"
+          android:background="#cbcacb"
+          android:paddingLeft="10dp"
+          android:textColor="#3a3a3a"
+          android:layout_height="45dp">
+
+</TextView>

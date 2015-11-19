@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal">
+
+    <TextView
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="10dp"
+        android:drawableTop="@mipmap/btn_article_wechatmoment_nor"
+        android:gravity="center"
+        android:text="推荐"
+        android:textSize="13sp"
+        />
+
+    <TextView
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="10dp"
+        android:drawableTop="@mipmap/btn_article_qqzone_nor"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:text="发现"
+        />
+
+    <TextView
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="10dp"
+        android:drawableTop="@mipmap/btn_article_sinaweibo_nor"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:text="商城"
+        />
+
+    <TextView
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="10dp"
+        android:drawableTop="@mipmap/btn_article_more_nor"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:text="食话"
+        />
+
+
+
+</LinearLayout>

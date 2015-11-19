@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/background">
+
+    <ImageButton
+        android:id="@+id/id_detail_back"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_selector"
+        android:src="@mipmap/btn_actionbar_back"/>
+
+    <ImageButton
+        android:id="@+id/id_home_more"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/btn_home_more"/>
+
+    <ImageButton
+        android:id="@+id/id_home_notice"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/id_home_more"
+        android:background="@android:color/transparent"
+        android:src="@mipmap/btn_nav_favourite_nor"/>
+
+    <TextView
+        android:id="@+id/id_comment_nor"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/id_home_notice"
+        android:drawableLeft="@mipmap/btn_actionbar_comment_nor"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#ffffff"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/id_like_nor"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/id_comment_nor"
+        android:drawableLeft="@mipmap/btn_actionbar_like_nor"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#ffffff"
+        android:textSize="17sp"/>
+
+</RelativeLayout>

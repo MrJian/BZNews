@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="180dp"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/background"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/id_login_header"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/avatar_m"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/id_login_header"
+            android:layout_below="@id/id_login_header"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="#ffffff"
+            android:textSize="17sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/id_sidebar_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:drawableLeft="@mipmap/icon_sidebar_home"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="首页"
+        android:textColor="#0d0d0d"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/id_sidebar_rank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:drawableLeft="@mipmap/icon_sidebar_rank"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="排行榜"
+        android:textColor="#0d0d0d"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/id_sidebar_column"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:drawableLeft="@mipmap/icon_sidebar_column"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="栏目"
+        android:textColor="#0d0d0d"
+        android:textSize="20sp"/>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/id_detail_liner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="#c4c4c4"
+            />
+
+        <TextView
+            android:id="@+id/id_share_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分享到"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="#c4c4c4"
+            />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/id_include_share_icon"
+        layout="@layout/item__detail_share_more"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_detail_liner"/>
+
+    <View
+        android:id="@+id/id_detail_share_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/id_include_share_icon"
+        android:layout_marginTop="10dp"
+        android:background="#c4c4c4"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/id_detail_share_bottom_line"
+        >
+
+        <com.bz.view.CircleImageView
+            android:id="@+id/id_author"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/more"/>
+
+        <TextView
+            android:id="@+id/id_author_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_author"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="零小蝎"/>
+
+        <TextView
+            android:id="@+id/id_author_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_author_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="零小蝎大写的二，天蝎座。"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
